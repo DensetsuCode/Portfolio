@@ -1,0 +1,15 @@
+.global-container {
+  max-width: 1920px;
+  margin: auto;
+}
+
+video {
+  object-fit: cover;
+}
+
+.parallax-section {
+  background: url(/build/images/parallax.ba73a332.jpg) no-repeat bottom/cover fixed;
+  min-height: 250px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaG9tZS5jc3MiLCJtYXBwaW5ncyI6IkFBTUE7RUFDRTtFQUNBO0FBTEY7O0FBT0E7RUFDRTtBQUpGOztBQU1BO0VBQ0U7RUFBd0Y7QUFGMUYsQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2hvbWUuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBib2R5e1xuLy8gICAgIG92ZXJmbG93OiBoaWRkZW47XG4vLyB9XG4vLyAjaG9tZSB7XG4vLyAgICAgaGVpZ2h0OiA4N3ZoO1xuLy8gICAgIH1cbi5nbG9iYWwtY29udGFpbmVyIHtcbiAgbWF4LXdpZHRoOiAxOTIwcHg7XG4gIG1hcmdpbjogYXV0bztcbn1cbnZpZGVvIHtcbiAgb2JqZWN0LWZpdDogY292ZXI7XG59XG4ucGFyYWxsYXgtc2VjdGlvbiB7XG4gIGJhY2tncm91bmQ6IHVybCgnLi4vLi4vcHVibGljL3Jlc3NvdXJjZXMvcGFyYWxsYXguanBnJykgbm8tcmVwZWF0IGJvdHRvbSAvIGNvdmVyIGZpeGVkOyBtaW4taGVpZ2h0OiAyNTBweDtcbn0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/

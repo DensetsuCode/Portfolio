@@ -1,0 +1,30 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_symfony_ux-turbo_dist-fe6752.js",
+        "/build/app.js"
+      ],
+      "css": [
+        "/build/app.css"
+      ]
+    },
+    "home": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/home.css"
+      ]
+    },
+    "cv": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/cv.css"
+      ]
+    }
+  }
+}
