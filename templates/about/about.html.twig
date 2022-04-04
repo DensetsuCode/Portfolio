@@ -2,8 +2,10 @@
 
 {% block title %}Profil
 {% endblock %}
-
-{% block body %}
+{% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+{% block main %}
 
     <div class="container-fluid" id="profil">
 	    <h1 "text-align:center">À propos de moi</h1>

@@ -10,6 +10,7 @@ class StagesController extends AbstractController
 {
     /**
      * @Route("/stages", name="stages")
+     * @
      */
     public function index(): Response
     {

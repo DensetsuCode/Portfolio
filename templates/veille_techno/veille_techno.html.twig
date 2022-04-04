@@ -1,11 +1,36 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello VeilleTechnoController!{% endblock %}
-
-{% block body %}
-<div class="container" style="background-color: #fefdd6; padding:10px;margin-top:20px;">
-
-<p style='text-align: center'> En pleine réflxion...</p>
-<img src='https://c.tenor.com/6cJ4lvVVlxgAAAAC/idk-sassy.gif'id='vt' />
-</div>
+{% block title %}Veille Technologique{% endblock %}
+{% block stylesheets %}
+	{{ parent() }}
 {% endblock %}
+{% block javascripts %}
+	{{ parent()}}
+	<script></script>
+{% endblock %}
+{% block main %}
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="../ressources/Blockchain.jpg" class="img-fluid border rounded-3 shadow-lg mb-4 border border-black" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">La Veille Techno</h1>
+        <p class="lead"> A l'issu de ces deux ans de Bts Sio option Slam j'ai fait le choix de porter ma veille Technologique sur les BlockChains. Je vais à présent vous montrer le fruit de mon travail à l'issu de cette veille Technologqiue via la version web, J'ai également mis à disposition une version PDF afin que vous puissiez la telecharger.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-danger btn-lg px-4 me-md-2">Version PDF</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 1 La Veille-->
+
+<section id="Veille" class="container-flex pb-5">
+		<h2 class="text-center display-5 fw-bold lh-1 mb-3">LA BLOCKCHAIN</h2>
+		</div>
+
+</section>
+{% endblock %}
+

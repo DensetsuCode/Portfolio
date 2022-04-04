@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contrat Apprentissage 
+{% endblock %}
+{% block javascripts %}
+	{{ parent()}}
+	<script></script>
+{% endblock %}
+{% block main %}
+<div id="pdc">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="display-4 titre_section">Portefeuille de Compétences</h2>
+                </div>
+
+                <div class="col-12">
+                    <div class="card card_portefeuillecompet">
+                        <div class="card-body">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center">
+                                <embed src="../ressources/Contrat-apprentissage.pdf" type="../ressources/.pdf" width="100%" height="500px" />
+                            </div>
+<br/>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                                <p>Si le fichier n'apparaît pas, veuillez <a href="{{path('Cerfa_contrat_apprentissage.html.twig')}}">cliquer ici</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

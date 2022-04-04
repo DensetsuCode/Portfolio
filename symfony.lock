@@ -444,6 +444,9 @@
             "templates/base.html.twig"
         ]
     },
+    "symfony/ux-swup": {
+        "version": "v2.1.0"
+    },
     "symfony/ux-turbo": {
         "version": "v2.0.1"
     },

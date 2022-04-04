@@ -1,7 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Contact{% endblock %}
-{% block body %}
+{% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+{% block main %}
 <div class="bg-wihte p-5 contact-form">
     <div class="form-group">
 {{ form_start(our_form) }}

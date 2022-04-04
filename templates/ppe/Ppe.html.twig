@@ -1,8 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}PPE{% endblock %}
-
-{% block body %}
+{% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+{% block main %}
 <div class="container">
 
     <h1> Mes PPE réalisés au cours de l'année ✅</h1>
