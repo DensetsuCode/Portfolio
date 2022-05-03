@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html class="h-100" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <title>{% block title %}Portfolio!{% endblock %}</title>
-        {% block stylesheets %}
-        {{ encore_entry_link_tags('app') }}
-        {% endblock %}
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
-        {% endblock %}
-    </head>
-       {% include "includes/navbar.html.twig" %}
-        {% block body %}
-        <body  {{ stimulus_controller('symfony/ux-swup/swup', {
-            containers: ['#swup'],
-            theme: 'slide',
-        }) }}
-    >
-<main id="swup">
-{% block main %}
-{% endblock %}
-</main>
-        {% endblock %}
-        {% include "includes/footer.html.twig" %}
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>
+			{% block title %}Portfolio!
+			{% endblock %}
+		</title>
+		{% block stylesheets %}
+			{{ encore_entry_link_tags('app') }}
+		{% endblock %}
+		{% block javascripts %}
+			{{ encore_entry_script_tags('app') }}
+		{% endblock %}
+	</head>
+	{% include "includes/navbar.html.twig" %}
+	
+	{% block body %}
+		
+		<body {{ stimulus_controller('symfony/ux-swup/swup', { containers: ['#swup'], theme: 'slide', } ) }}>
+			<main id="swup">
+				{% block main %}{% endblock %}
+			</main>
+		{% endblock %}
+		{% include "includes/footer.html.twig" %}
+		{% include "includes/contact.html.twig" %}
+	</body>
 </html>
+
