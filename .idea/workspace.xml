@@ -6,25 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15d0b46b-5bbc-45ec-b37f-bce6867a297a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AcceuilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AcceuilController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ContactType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ContactType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about/about.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bloc_competence/bdc.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bloc_competence/bdc.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bts_sio/bts_sio.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bts_sio/bts_sio.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact/contact.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cv/curriculum_vitæ.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cv/curriculum_vitæ.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/ppe/Ppe.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ppe/Ppe.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/stages/Cerfa_contrat_apprentissage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stages/Cerfa_contrat_apprentissage.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/stages/stages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stages/stages.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/veille_techno/veille_techno.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/veille_techno/veille_techno.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +167,7 @@
       <workItem from="1650542147092" duration="336000" />
       <workItem from="1651130769527" duration="811000" />
       <workItem from="1651131703371" duration="594000" />
+      <workItem from="1651650438912" duration="223000" />
     </task>
     <servers />
   </component>
