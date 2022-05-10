@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
 		<title>
-			{% block title %}Portfolio!
+			{% block title %}Portfolio
 			{% endblock %}
 		</title>
 		{% block stylesheets %}
@@ -21,7 +21,9 @@
 		
 		<body {{ stimulus_controller('symfony/ux-swup/swup', { containers: ['#swup'], theme: 'slide', } ) }}>
 			<main id="swup">
-				{% block main %}{% endblock %}
+				{% block main %}
+				
+				{% endblock %}
 			</main>
 		{% endblock %}
 		{% include "includes/footer.html.twig" %}
