@@ -19,7 +19,7 @@
 	
 	{% block body %}
 		
-		<body {{ stimulus_controller('symfony/ux-swup/swup', { containers: ['#swup'], theme: 'slide', } ) }}>
+		<body {{ stimulus_controller('symfony/ux-swup/swup', { containers: ['#swup'], theme: 'slide', debug: true, } ) }}>
 			<main id="swup">
 				{% block main %}
 				
@@ -27,7 +27,7 @@
 			</main>
 		{% endblock %}
 		{% include "includes/footer.html.twig" %}
-		{% include "includes/contact.html.twig" %}
+		{# {% include "includes/contact.html.twig" %} #}
 	</body>
 </html>
 
