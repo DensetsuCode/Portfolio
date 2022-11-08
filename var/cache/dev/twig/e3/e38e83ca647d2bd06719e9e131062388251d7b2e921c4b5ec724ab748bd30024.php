@@ -145,17 +145,17 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 \t\t<!-- Home -->
 \t\t<div class=\"w-100 h-100 bg-dark position-relative\">
 
-\t\t\t<video autoplay loop muted src=\"ressources/pexels-tima-miroshnichenko-5377684.mp4\" class=\"position-absolute w-100 h-125\"></video>
-\t\t<div class=\"position-absolute w-100 h-100 bg-dark opacity-60\"></div>
-\t\t<div class=\"position-relative w-100 h-100 d-flex align-items-center justify-content-center flex-column pb-5\">
+\t\t\t <video autoplay loop muted src=\"ressources/anonymous.mp4\" class=\"position-absolute w-100 h-100\"></video>
+        <div class=\"position-absolute w-100 h-100 bg-dark opacity-50\"></div>
+        <div class=\"position-relative w-100 h-100 d-flex align-items-center justify-content-center flex-column pb-5\">
 
-\t\t\t<p class=\"fs-5 text-light mb-0\">ETUDIANT BTS SIO SLAM </p>
+\t\t\t<p class=\"fs-5 text-light mb-0\">ETUDIANT BTS SIO</p>
 \t\t\t<h1 class=\"text-center display-1 fw-bolder text-light\">YANIS EL KAJJOUI </h1>
 \t\t\t<p class=\"fs-5 text-light mb-4\">\"Programmez-vous pour être libre et libérez-vous de la programmation\"</p>
 \t\t\t<a href=\"";
         // line 28
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("about");
-        echo "\" class=\"btn btn-lg btn-primary\">Mon Portfolio</a>
+        echo "\" class=\"btn btn-lg btn-primary\">Plus d'info sur moi</a>
 \t\t</div>
 
 \t</div>
@@ -168,7 +168,7 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 \t\t<div class=\"row justify-content-center pt-4 pb-5 mt-md-5 mt-0\">
 \t\t\t<div class=\"col-3 d-flex flex-column align-items-center\">
 \t\t\t\t<div class=\"row justify-content-center\">
-\t\t\t\t\t<img src=\"ressources/chat.svg\" alt=\"chat icon\" class=\"img-fluid\">
+\t\t\t\t\t<img src=\"ressources/chat.svg\" alt=\"chat icon\" class=\"col-4\">
 \t\t\t\t</div>
 \t\t\t\t<h2 class=\"fs-4\">Réactif</h2>
 \t\t\t\t<p class=\"text-center\">
@@ -179,7 +179,7 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 
 \t\t\t<div class=\"col-3 d-flex flex-column align-items-center\">
 \t\t\t\t<div class=\"row justify-content-center\">
-\t\t\t\t\t<img src=\"ressources/coding.svg\" alt=\"coding icon\" class=\"img-fluid\">
+\t\t\t\t\t<img src=\"ressources/coding.svg\" alt=\"coding icon\" class=\"col-4\">
 \t\t\t\t</div>
 \t\t\t\t<h2 class=\"fs-4\">Persévérant</h2>
 \t\t\t\t<p class=\"text-center\">
@@ -190,7 +190,7 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 
 \t\t\t<div class=\"col-3 d-flex flex-column align-items-center\">
 \t\t\t\t<div class=\"row justify-content-center\">
-\t\t\t\t\t<img src=\"ressources/transfer.svg\" alt=\"transfer icon\" class=\"img-fluid\">
+\t\t\t\t\t<img src=\"ressources/transfer.svg\" alt=\"transfer icon\" class=\"col-4\">
 \t\t\t\t</div>
 \t\t\t\t<h2 class=\"fs-4\">Autonome</h2>
 \t\t\t\t<p class=\"text-center\">
@@ -233,7 +233,7 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 \t\t\t\t\t<div class=\"p-5 text-dark bg-warning rounded-3 shadow\">
 \t\t\t\t\t\t<h2>Bloc de compétences</h2>
 \t\t\t\t\t\t<p>Consulter mon bloc de compétences réalisé de 2021 à 2023.</p>
-\t\t\t\t\t\t<a class=\"btn btn-outline-light\" href=\"ressources/Annexe 6-1 - Tableau de synthèse - Epreuve E6 - BTS SIO 2023.xlsx - Tableau de synthèse Épreuve E4.pdf\">Plus d'info ici</a>
+\t\t\t\t\t\t<a class=\"btn btn-outline-light\" href=\"ressources/Annexe 6-1.pdf\">Plus d'info ici</a>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 
@@ -455,14 +455,14 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 \t\t<!-- Home -->
 \t\t<div class=\"w-100 h-100 bg-dark position-relative\">
 
-\t\t\t<video autoplay loop muted src=\"ressources/pexels-tima-miroshnichenko-5377684.mp4\" class=\"position-absolute w-100 h-125\"></video>
-\t\t<div class=\"position-absolute w-100 h-100 bg-dark opacity-60\"></div>
-\t\t<div class=\"position-relative w-100 h-100 d-flex align-items-center justify-content-center flex-column pb-5\">
+\t\t\t <video autoplay loop muted src=\"ressources/anonymous.mp4\" class=\"position-absolute w-100 h-100\"></video>
+        <div class=\"position-absolute w-100 h-100 bg-dark opacity-50\"></div>
+        <div class=\"position-relative w-100 h-100 d-flex align-items-center justify-content-center flex-column pb-5\">
 
-\t\t\t<p class=\"fs-5 text-light mb-0\">ETUDIANT BTS SIO SLAM </p>
+\t\t\t<p class=\"fs-5 text-light mb-0\">ETUDIANT BTS SIO</p>
 \t\t\t<h1 class=\"text-center display-1 fw-bolder text-light\">YANIS EL KAJJOUI </h1>
 \t\t\t<p class=\"fs-5 text-light mb-4\">\"Programmez-vous pour être libre et libérez-vous de la programmation\"</p>
-\t\t\t<a href=\"{{ path('about') }}\" class=\"btn btn-lg btn-primary\">Mon Portfolio</a>
+\t\t\t<a href=\"{{ path('about') }}\" class=\"btn btn-lg btn-primary\">Plus d'info sur moi</a>
 \t\t</div>
 
 \t</div>
@@ -475,7 +475,7 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 \t\t<div class=\"row justify-content-center pt-4 pb-5 mt-md-5 mt-0\">
 \t\t\t<div class=\"col-3 d-flex flex-column align-items-center\">
 \t\t\t\t<div class=\"row justify-content-center\">
-\t\t\t\t\t<img src=\"ressources/chat.svg\" alt=\"chat icon\" class=\"img-fluid\">
+\t\t\t\t\t<img src=\"ressources/chat.svg\" alt=\"chat icon\" class=\"col-4\">
 \t\t\t\t</div>
 \t\t\t\t<h2 class=\"fs-4\">Réactif</h2>
 \t\t\t\t<p class=\"text-center\">
@@ -486,7 +486,7 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 
 \t\t\t<div class=\"col-3 d-flex flex-column align-items-center\">
 \t\t\t\t<div class=\"row justify-content-center\">
-\t\t\t\t\t<img src=\"ressources/coding.svg\" alt=\"coding icon\" class=\"img-fluid\">
+\t\t\t\t\t<img src=\"ressources/coding.svg\" alt=\"coding icon\" class=\"col-4\">
 \t\t\t\t</div>
 \t\t\t\t<h2 class=\"fs-4\">Persévérant</h2>
 \t\t\t\t<p class=\"text-center\">
@@ -497,7 +497,7 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 
 \t\t\t<div class=\"col-3 d-flex flex-column align-items-center\">
 \t\t\t\t<div class=\"row justify-content-center\">
-\t\t\t\t\t<img src=\"ressources/transfer.svg\" alt=\"transfer icon\" class=\"img-fluid\">
+\t\t\t\t\t<img src=\"ressources/transfer.svg\" alt=\"transfer icon\" class=\"col-4\">
 \t\t\t\t</div>
 \t\t\t\t<h2 class=\"fs-4\">Autonome</h2>
 \t\t\t\t<p class=\"text-center\">
@@ -537,7 +537,7 @@ class __TwigTemplate_5e12662190b321ba15808ac831378e00d6d2421f4d11bd91c0c164d297f
 \t\t\t\t\t<div class=\"p-5 text-dark bg-warning rounded-3 shadow\">
 \t\t\t\t\t\t<h2>Bloc de compétences</h2>
 \t\t\t\t\t\t<p>Consulter mon bloc de compétences réalisé de 2021 à 2023.</p>
-\t\t\t\t\t\t<a class=\"btn btn-outline-light\" href=\"ressources/Annexe 6-1 - Tableau de synthèse - Epreuve E6 - BTS SIO 2023.xlsx - Tableau de synthèse Épreuve E4.pdf\">Plus d'info ici</a>
+\t\t\t\t\t\t<a class=\"btn btn-outline-light\" href=\"ressources/Annexe 6-1.pdf\">Plus d'info ici</a>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 

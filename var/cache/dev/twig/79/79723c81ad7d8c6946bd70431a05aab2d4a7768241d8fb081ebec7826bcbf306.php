@@ -111,10 +111,7 @@ class __TwigTemplate_de317d5bc6a3338d478c9aa57a278f4f9bbe002322614e07e5995158a98
 
         // line 9
         echo "
-<div class=\"grid text-center\" style=\"--bs-columns: 4; --bs-gap: 5rem;\">
-  <div class=\"g-col-2\">.g-col-2</div>
-  <div class=\"g-col-2\">.g-col-2</div>
-</div>
+  <h1> Bonjour je m'appelle Yanis <h1>
 
 ";
         
@@ -151,10 +148,7 @@ class __TwigTemplate_de317d5bc6a3338d478c9aa57a278f4f9bbe002322614e07e5995158a98
 {% endblock %}
 {% block main %}
 
-<div class=\"grid text-center\" style=\"--bs-columns: 4; --bs-gap: 5rem;\">
-  <div class=\"g-col-2\">.g-col-2</div>
-  <div class=\"g-col-2\">.g-col-2</div>
-</div>
+  <h1> Bonjour je m'appelle Yanis <h1>
 
 {% endblock %}
 

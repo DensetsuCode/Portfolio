@@ -110,9 +110,9 @@ class __TwigTemplate_67f2e2ff06af3e95b8fb6870608932030050de4366e05227a3080277086
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "main"));
 
         // line 9
-        echo "\t<div class=\"container-fluid text-center\">
-
-\t\t<h1 class=\"text-dark display-3\">Le Bts SIO</h1>
+        echo "
+\t<div class=\"row justify-content-evenly\">
+\t\t<h1 class=\"text-dark display-3 text-center\">Le BTS SIO</h1>
 \t\t<div class=\"text-center\">
 \t\t\t<h2>En quoi consiste ce Bts consiste ?</h2>
 \t\t\t<p>
@@ -121,59 +121,64 @@ class __TwigTemplate_67f2e2ff06af3e95b8fb6870608932030050de4366e05227a3080277086
 \t\t\t\t\tPar la suite ils pourront directement rejoindre le monde du travail à l'issu de cela ou bien continuer leurs études dans le domaine qu'ils ont choisi.</strong>
 \t\t\t</p>
 \t\t</div>
-\t\t<h1>
-\t\t\tLe BTS SIO se compose de 2 options :</h1>
+\t\t<h1 class=\"text-dark display-3 text-center\">
+\t\t\tLe BTS SIO se distingue par deux options différentes :</h1>
 \t</section>
-\t<div class=\"h-100 p-5 bg-light border rounded-3\">
-\t\t<h2>
-\t\t\tL'Option SLAM
-\t\t</h2>
-\t\t<p>Le signe SLAM signifie
-\t\t\t<strong>Solutions Logicielles et Applications Métier.</strong>
-\t\t\tVoici des précisions sur cette formation et ses débouchés.</p>
+\t<div class=\"row justify-content-evenly\">
+\t\t<div class=\"col-4\">
+\t<div class=\"h-100 p-5 text-white bg-secondary rounded-3\">
 
-\t\t<h3>
-\t\t\tQu'est ce que l'option SLAM
-\t\t</h3>
-\t\t<p>
-\t\t\tL’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs. Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.
-\t\t\t\t\t\t\t\t\t\t\t\t\tIls pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.
-\t\t\t\t\t\t\t\t\t\t\t\t\tVoici les débouchés avec un BTS SIO SLAM:
+\t\t\t<h2>
+\t\t\t\tL'Option SLAM
+\t\t\t</h2>
+\t\t\t<p>L’acronyme SLAM signifie
+\t\t\t\t<strong>« Solutions Logicielles et Applications Métier ».</strong>
+\t\t\t\tVoici des précisions sur cette formation et ses débouchés.</p>
 
-\t\t\t<ul>
-\t\t\t\t<li>
-\t\t\t\t\tDéveloppeur d'applications informatiques
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tDéveloppeur informatique
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tAnalyste d'applications ou d'études
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tAnalyste programmeur
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tChargé d'études informatiques
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tInformaticien d'études
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tProgrammeur analyste
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tProgrammeur d'applications
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tResponsable des services applicatifs
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tTechnicien d'études informatiques
-\t\t\t\t</li>
-\t\t\t</ul>
-\t\t</p>
+\t\t\t<h3>
+\t\t\t\tQu'est ce que l'option SLAM
+\t\t\t</h3>
+\t\t\t<p>
+\t\t\t\tL’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs. Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tIls pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVoici les débouchés avec un BTS SIO SLAM:
+
+\t\t\t\t<ul>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tDéveloppeur d'applications informatiques
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tDéveloppeur informatique
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tAnalyste d'applications ou d'études
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tAnalyste programmeur
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tChargé d'études informatiques
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tInformaticien d'études
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tProgrammeur analyste
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tProgrammeur d'applications
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tResponsable des services applicatifs
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tTechnicien d'études informatiques
+\t\t\t\t\t</li>
+\t\t\t\t</ul>
+\t\t\t</p>
+\t\t</div>
 \t</div>
+\t        <div class=\"col-4\">
 \t<div class=\"h-100 p-5 text-white bg-dark rounded-3\">
 
 
@@ -184,15 +189,15 @@ class __TwigTemplate_67f2e2ff06af3e95b8fb6870608932030050de4366e05227a3080277086
 \t\t\tL’acronyme SISR signifie
 \t\t\t<strong>
 \t\t\t\t« Solutions d’infrastructure, systèmes et réseaux ».</strong>
-\t\t\tVoici quelques indications sur cette seconde option du BTS SIO.
+\t\t\t\tVoici des précisions sur cette formation et ses débouchés.
 \t\t</p>
 \t\t<h3>
 \t\t\tQu'est ce que l'option SISR
 \t\t</h3>
 
 \t\t<p>L’option SISR est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance d’infrastructures réseaux. Assurer la sécurité, la maintenance et l’installation des réseaux et des équipements informatiques font partie des principales missions des futurs administrateurs, techniciens ou pilotes d’exploitation.
-\t\t\t\t\t\t\t\t\t\t\t\t\tDes cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise.
-\t\t\t\t\t\t\t\t\t\t\t\t\tVoici les débouchés avec un BTS SIO SISR:
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDes cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise.
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVoici les débouchés avec un BTS SIO SISR:
 \t\t\t<ul>
 \t\t\t\t<li>
 \t\t\t\t\tTechnicien de production
@@ -219,6 +224,9 @@ class __TwigTemplate_67f2e2ff06af3e95b8fb6870608932030050de4366e05227a3080277086
 \t\t\t\t\tInformaticien support et déploiement</li>
 \t\t\t</ul>
 \t\t</p>
+\t\t </div>
+  </div>
+</div>
 \t</div>
 </div></div>";
         
@@ -254,9 +262,9 @@ class __TwigTemplate_67f2e2ff06af3e95b8fb6870608932030050de4366e05227a3080277086
 \t{{ encore_entry_script_tags('app') }}
 {% endblock %}
 {% block main %}
-\t<div class=\"container-fluid text-center\">
 
-\t\t<h1 class=\"text-dark display-3\">Le Bts SIO</h1>
+\t<div class=\"row justify-content-evenly\">
+\t\t<h1 class=\"text-dark display-3 text-center\">Le BTS SIO</h1>
 \t\t<div class=\"text-center\">
 \t\t\t<h2>En quoi consiste ce Bts consiste ?</h2>
 \t\t\t<p>
@@ -265,59 +273,64 @@ class __TwigTemplate_67f2e2ff06af3e95b8fb6870608932030050de4366e05227a3080277086
 \t\t\t\t\tPar la suite ils pourront directement rejoindre le monde du travail à l'issu de cela ou bien continuer leurs études dans le domaine qu'ils ont choisi.</strong>
 \t\t\t</p>
 \t\t</div>
-\t\t<h1>
-\t\t\tLe BTS SIO se compose de 2 options :</h1>
+\t\t<h1 class=\"text-dark display-3 text-center\">
+\t\t\tLe BTS SIO se distingue par deux options différentes :</h1>
 \t</section>
-\t<div class=\"h-100 p-5 bg-light border rounded-3\">
-\t\t<h2>
-\t\t\tL'Option SLAM
-\t\t</h2>
-\t\t<p>Le signe SLAM signifie
-\t\t\t<strong>Solutions Logicielles et Applications Métier.</strong>
-\t\t\tVoici des précisions sur cette formation et ses débouchés.</p>
+\t<div class=\"row justify-content-evenly\">
+\t\t<div class=\"col-4\">
+\t<div class=\"h-100 p-5 text-white bg-secondary rounded-3\">
 
-\t\t<h3>
-\t\t\tQu'est ce que l'option SLAM
-\t\t</h3>
-\t\t<p>
-\t\t\tL’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs. Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.
-\t\t\t\t\t\t\t\t\t\t\t\t\tIls pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.
-\t\t\t\t\t\t\t\t\t\t\t\t\tVoici les débouchés avec un BTS SIO SLAM:
+\t\t\t<h2>
+\t\t\t\tL'Option SLAM
+\t\t\t</h2>
+\t\t\t<p>L’acronyme SLAM signifie
+\t\t\t\t<strong>« Solutions Logicielles et Applications Métier ».</strong>
+\t\t\t\tVoici des précisions sur cette formation et ses débouchés.</p>
 
-\t\t\t<ul>
-\t\t\t\t<li>
-\t\t\t\t\tDéveloppeur d'applications informatiques
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tDéveloppeur informatique
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tAnalyste d'applications ou d'études
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tAnalyste programmeur
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tChargé d'études informatiques
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tInformaticien d'études
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tProgrammeur analyste
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tProgrammeur d'applications
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tResponsable des services applicatifs
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\tTechnicien d'études informatiques
-\t\t\t\t</li>
-\t\t\t</ul>
-\t\t</p>
+\t\t\t<h3>
+\t\t\t\tQu'est ce que l'option SLAM
+\t\t\t</h3>
+\t\t\t<p>
+\t\t\t\tL’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs. Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tIls pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVoici les débouchés avec un BTS SIO SLAM:
+
+\t\t\t\t<ul>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tDéveloppeur d'applications informatiques
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tDéveloppeur informatique
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tAnalyste d'applications ou d'études
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tAnalyste programmeur
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tChargé d'études informatiques
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tInformaticien d'études
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tProgrammeur analyste
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tProgrammeur d'applications
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tResponsable des services applicatifs
+\t\t\t\t\t</li>
+\t\t\t\t\t<li>
+\t\t\t\t\t\tTechnicien d'études informatiques
+\t\t\t\t\t</li>
+\t\t\t\t</ul>
+\t\t\t</p>
+\t\t</div>
 \t</div>
+\t        <div class=\"col-4\">
 \t<div class=\"h-100 p-5 text-white bg-dark rounded-3\">
 
 
@@ -328,15 +341,15 @@ class __TwigTemplate_67f2e2ff06af3e95b8fb6870608932030050de4366e05227a3080277086
 \t\t\tL’acronyme SISR signifie
 \t\t\t<strong>
 \t\t\t\t« Solutions d’infrastructure, systèmes et réseaux ».</strong>
-\t\t\tVoici quelques indications sur cette seconde option du BTS SIO.
+\t\t\t\tVoici des précisions sur cette formation et ses débouchés.
 \t\t</p>
 \t\t<h3>
 \t\t\tQu'est ce que l'option SISR
 \t\t</h3>
 
 \t\t<p>L’option SISR est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance d’infrastructures réseaux. Assurer la sécurité, la maintenance et l’installation des réseaux et des équipements informatiques font partie des principales missions des futurs administrateurs, techniciens ou pilotes d’exploitation.
-\t\t\t\t\t\t\t\t\t\t\t\t\tDes cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise.
-\t\t\t\t\t\t\t\t\t\t\t\t\tVoici les débouchés avec un BTS SIO SISR:
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDes cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise.
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVoici les débouchés avec un BTS SIO SISR:
 \t\t\t<ul>
 \t\t\t\t<li>
 \t\t\t\t\tTechnicien de production
@@ -363,9 +376,11 @@ class __TwigTemplate_67f2e2ff06af3e95b8fb6870608932030050de4366e05227a3080277086
 \t\t\t\t\tInformaticien support et déploiement</li>
 \t\t\t</ul>
 \t\t</p>
+\t\t </div>
+  </div>
+</div>
 \t</div>
 </div></div>{% endblock %}
-
 ", "bts_sio/bts_sio.html.twig", "/home/yanis/server/symfony/projet0/templates/bts_sio/bts_sio.html.twig");
     }
 }

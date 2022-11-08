@@ -91,17 +91,17 @@ class __TwigTemplate_357a7024fb70b98ed48af4d86fddae67be15f3ae6ad713dfa8aacc31ccb
 \t\t<!-- Home -->
 \t\t<div class=\"w-100 h-100 bg-dark position-relative\">
 
-\t\t\t<video autoplay loop muted src=\"ressources/pexels-tima-miroshnichenko-5377684.mp4\" class=\"position-absolute w-100 h-125\"></video>
+\t\t\t<video autoplay loop muted src=\"ressources/pexels-tima-miroshnichenko-5377684.mp4\" class=\"position-absolute w-100 h-100\"></video>
 \t\t<div class=\"position-absolute w-100 h-100 bg-dark opacity-60\"></div>
 \t\t<div class=\"position-relative w-100 h-100 d-flex align-items-center justify-content-center flex-column pb-5\">
 
-\t\t\t<p class=\"fs-5 text-light mb-0\">ETUDIANT BTS SIO SLAM </p>
+\t\t\t<p class=\"fs-5 text-light mb-0\">ETUDIANT BTS SIO</p>
 \t\t\t<h1 class=\"text-center display-1 fw-bolder text-light\">YANIS EL KAJJOUI </h1>
 \t\t\t<p class=\"fs-5 text-light mb-4\">\"Programmez-vous pour être libre et libérez-vous de la programmation\"</p>
 \t\t\t<a href=\"";
         // line 28
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("about");
-        echo "\" class=\"btn btn-lg btn-primary\">Mon Portfolio</a>
+        echo "\" class=\"btn btn-lg btn-primary\">Plus d'info sur moi (clique)</a>
 \t\t</div>
 
 \t</div>

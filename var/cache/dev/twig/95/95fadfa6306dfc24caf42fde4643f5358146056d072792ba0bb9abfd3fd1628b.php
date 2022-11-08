@@ -110,25 +110,12 @@ class __TwigTemplate_7a26ac54ec9870b846248216170c198bc1ac858e6e1ca6cf792b30826a6
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "main"));
 
         // line 9
-        echo "\t<div>
-\t\t<div class=\"container\">
-\t\t\t<div class=\"row\">
-\t\t\t\t<div class=\"col-12 text-center\">
-\t\t\t\t\t<h2 class=\"display-4 titre_section\">Portefeuille de Compétences</h2>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"col-12\">
-\t\t\t\t\t<div class=\"card card_portefeuillecompet\">
-\t\t\t\t\t\t<div class=\"card-body\">
-\t\t\t\t\t\t\t<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center\">
-\t\t\t\t\t\t\t\t<embed src=\"../\" width=\"100%\" height=\"1500px\"/>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<br/>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</div>
-\t</div>
+        echo "\t<center>
+\t<h1 style=\"color: green\">Annexe 6.1 Bloc de compétence E4 Version PDF 2022</h1>
+<div class=\"ratio ratio-16x9\">
+<embed src=\"../ressources/Annexe 6-1.pdf\" 
+</div>
+</center>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -163,25 +150,12 @@ class __TwigTemplate_7a26ac54ec9870b846248216170c198bc1ac858e6e1ca6cf792b30826a6
 \t{{encore_entry_script_tags('app')}}
 {% endblock %}
 {% block main %}
-\t<div>
-\t\t<div class=\"container\">
-\t\t\t<div class=\"row\">
-\t\t\t\t<div class=\"col-12 text-center\">
-\t\t\t\t\t<h2 class=\"display-4 titre_section\">Portefeuille de Compétences</h2>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"col-12\">
-\t\t\t\t\t<div class=\"card card_portefeuillecompet\">
-\t\t\t\t\t\t<div class=\"card-body\">
-\t\t\t\t\t\t\t<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center\">
-\t\t\t\t\t\t\t\t<embed src=\"../\" width=\"100%\" height=\"1500px\"/>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<br/>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</div>
-\t</div>
+\t<center>
+\t<h1 style=\"color: green\">Annexe 6.1 Bloc de compétence E4 Version PDF 2022</h1>
+<div class=\"ratio ratio-16x9\">
+<embed src=\"../ressources/Annexe 6-1.pdf\" 
+</div>
+</center>
 {% endblock %}
 
 ", "bloc_competence/bdc.html.twig", "/home/yanis/server/symfony/projet0/templates/bloc_competence/bdc.html.twig");
