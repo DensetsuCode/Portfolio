@@ -110,8 +110,13 @@ class __TwigTemplate_de317d5bc6a3338d478c9aa57a278f4f9bbe002322614e07e5995158a98
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "main"));
 
         // line 9
-        echo "
-  <h1> Bonjour je m'appelle Yanis <h1>
+        echo "\t<div class=\"bg-dark bg-dark position-relative w-100 h-100\">\">
+\t\t<div class=\"row\">
+\t\t\t<div class=\"col d-flex justify-content-center\">
+\t\t\t\t<img src=\"https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/54748319/original/eead39b9ebc5f90c21f589d3c72167b5aca371b8/make-coming-soon-under-construction-page-for-your-website.png\" alt=\"image\" class=\"img-responsive center-block\"/>
+\t\t\t</div>
+\t\t</div>
+\t</div>
 
 ";
         
@@ -147,11 +152,15 @@ class __TwigTemplate_de317d5bc6a3338d478c9aa57a278f4f9bbe002322614e07e5995158a98
 \t{{ encore_entry_script_tags('app') }}
 {% endblock %}
 {% block main %}
-
-  <h1> Bonjour je m'appelle Yanis <h1>
+\t<div class=\"bg-dark bg-dark position-relative w-100 h-100\">\">
+\t\t<div class=\"row\">
+\t\t\t<div class=\"col d-flex justify-content-center\">
+\t\t\t\t<img src=\"https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/54748319/original/eead39b9ebc5f90c21f589d3c72167b5aca371b8/make-coming-soon-under-construction-page-for-your-website.png\" alt=\"image\" class=\"img-responsive center-block\"/>
+\t\t\t</div>
+\t\t</div>
+\t</div>
 
 {% endblock %}
-
 ", "about/about.html.twig", "/home/yanis/server/symfony/projet0/templates/about/about.html.twig");
     }
 }

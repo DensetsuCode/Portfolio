@@ -18,53 +18,55 @@
 		<!-- Home -->
 		<div class="w-100 h-100 bg-dark position-relative">
 
-			 <video autoplay loop muted src="ressources/anonymous.mp4" class="position-absolute w-100 h-100"></video>
-        <div class="position-absolute w-100 h-100 bg-dark opacity-50"></div>
-        <div class="position-relative w-100 h-100 d-flex align-items-center justify-content-center flex-column pb-5">
+			<video autoplay loop muted src="ressources/anonymous.mp4" class="position-absolute w-100 h-100"></video>
+			<div class="position-absolute w-100 h-100 bg-dark opacity-50"></div>
+			<div class="position-relative w-100 h-100 d-flex align-items-center justify-content-center flex-column pb-5">
 
-			<p class="fs-5 text-light mb-0">ETUDIANT BTS SIO</p>
-			<h1 class="text-center display-1 fw-bolder text-light">YANIS EL KAJJOUI </h1>
-			<p class="fs-5 text-light mb-4">"Programmez-vous pour être libre et libérez-vous de la programmation"</p>
-			<a href="{{ path('about') }}" class="btn btn-lg btn-primary">Plus d'info sur moi</a>
+				<p class="fs-5 text-light mb-0">ETUDIANT BTS SIO</p>
+				<h1 class="text-center display-1 fw-bolder text-light">YANIS EL KAJJOUI
+				</h1>
+				<p class="fs-5 text-light mb-4">"Programmez-vous pour être libre et libérez-vous de la programmation"</p>
+				<a href="{{ path('about') }}" class="btn btn-lg btn-primary">Plus d'info sur moi</a>
+			</div>
+
 		</div>
+		<!-- Section 2  à propos de moi -->
 
-	</div>
-	<!-- Section 2  à propos de moi -->
+		<section id="features" class="container-flex pb-5">
 
-	<section id="features" class="container-flex pb-5">
+			<h2 class="text-center display-4 mb-md-5 mb-3">MES QUALITES</h2>
 
-		<h2 class="text-center display-4 mb-md-5 mb-3">MES QUALITES</h2>
-
-		<div class="row justify-content-center pt-4 pb-5 mt-md-5 mt-0">
-			<div class="col-3 d-flex flex-column align-items-center">
-				<div class="row justify-content-center">
-					<img src="ressources/chat.svg" alt="chat icon" class="col-4">
+			<div class="row justify-content-center pt-4 pb-5 mt-md-5 mt-0">
+				<div class="col-3 d-flex flex-column align-items-center">
+					<div class="row justify-content-center">
+						<img src="ressources/chat.svg" alt="chat icon" class="col-4">
+					</div>
+					<h2 class="fs-4">Réactif</h2>
+					<p class="text-center">
+						<strong>La réactivité permet une résolution rapide des problèmes.</strong>
+					</p>
 				</div>
-				<h2 class="fs-4">Réactif</h2>
-				<p class="text-center">
-					<strong>La réactivité permet une résolution rapide des problèmes.</strong>
-				</p>
-			</div>
 
 
-			<div class="col-3 d-flex flex-column align-items-center">
-				<div class="row justify-content-center">
-					<img src="ressources/coding.svg" alt="coding icon" class="col-4">
+				<div class="col-3 d-flex flex-column align-items-center">
+					<div class="row justify-content-center">
+						<img src="ressources/coding.svg" alt="coding icon" class="col-4">
+					</div>
+					<h2 class="fs-4">Persévérant</h2>
+					<p class="text-center">
+						<strong>La persévérance est un fait fastidieux et long parfois, mais qui est récompensée par la satisfaction d'avoir réussi dans le monde de la programmation.</strong>
+					</p>
 				</div>
-				<h2 class="fs-4">Persévérant</h2>
-				<p class="text-center">
-					<strong>La persévérance est un fait fastidieux et long parfois, mais qui est récompensée par la satisfaction d'avoir réussi dans le monde de la programmation.</strong>
-				</p>
-			</div>
 
 
-			<div class="col-3 d-flex flex-column align-items-center">
-				<div class="row justify-content-center">
-					<img src="ressources/transfer.svg" alt="transfer icon" class="col-4">
-				</div>
-				<h2 class="fs-4">Autonome</h2>
-				<p class="text-center">
-					<strong>L'autonomie permet de mettre des solutions en place sans avoir besoin d'être assisté.</strong></p>
+				<div class="col-3 d-flex flex-column align-items-center">
+					<div class="row justify-content-center">
+						<img src="ressources/transfer.svg" alt="transfer icon" class="col-4">
+					</div>
+					<h2 class="fs-4">Autonome</h2>
+					<p class="text-center">
+						<strong>L'autonomie permet de mettre des solutions en place sans avoir besoin d'être assisté.</strong>
+					</p>
 				</p>
 			</div>
 
@@ -100,7 +102,7 @@
 					<div class="p-5 text-dark bg-warning rounded-3 shadow">
 						<h2>Bloc de compétences</h2>
 						<p>Consulter mon bloc de compétences réalisé de 2021 à 2023.</p>
-						<a class="btn btn-outline-light" href="ressources/Annexe 6-1.pdf">Plus d'info ici</a>
+						<a class="btn btn-outline-light" href="{{ path('app_bloc_competence')}}">Plus d'info ici</a>
 					</div>
 				</div>
 
@@ -116,7 +118,7 @@
 					<div class="p-5 text-dark bg-light rounded-3 shadow">
 						<h2>Mon Cv</h2>
 						<p>disponible ici.</p>
-						<a class="btn btn-outline-dark" href= "{{ path('cv') }}">Plus d'info</a>
+						<a class="btn btn-outline-dark" href="{{ path('cv') }}">Plus d'info</a>
 					</div>
 				</div>
 
@@ -146,7 +148,7 @@
 					<div class="card">
 						<img src="ressources/Tesla-symbol.jpg" class="img-fluid" alt="Tesla">
 						<div class="card-body">
-							<h5 class="card-title">Création du site de Tesla via Bootstrap 5</h5>
+							<h5 class="card-title">Clone du site de Tesla via Bootstrap 5</h5>
 							<p class="card-text">En cour...</p>
 							<a href="#" class="btn btn-primary">Jetez un coup d'oeil</a>
 						</div>
@@ -157,7 +159,7 @@
 					<div class="card">
 						<img src="ressources/E-commerce.png" class="img-fluid" alt="E-Commerce">
 						<div class="card-body">
-							<h5 class="card-title">Site e-commerce Symfony 
+							<h5 class="card-title">Site e-commerce Symfony
 							</h5>
 							<p class="card-text">En cour...</p>
 							<a href="#" class="btn btn-primary">Jetez un coup d'oeil</a>
@@ -172,7 +174,7 @@
 							<h5 class="card-title">
 								Portfolio V2</h5>
 							<p class="card-text">Terminé !</p>
-							<a href"{{ path('cv') }}" class="btn btn-primary">Jetez un coup d'oeil</a>
+							<a href "{{ path('cv') }}" class="btn btn-primary">Jetez un coup d'oeil</a>
 						</div>
 					</div>
 				</div>
@@ -241,7 +243,7 @@
 				<input class="form-control" id="name" type="text" placeholder="Votre nom" data-sb-validations="required"/>
 			</div>
 
-						<!-- Prenom input -->
+			<!-- Prenom input -->
 			<div class="mb-3">
 				<label class="form-label" for="name">Prénom</label>
 				<input class="form-control" id="name" type="text" placeholder="Votre prénom" data-sb-validations="required"/>
@@ -268,4 +270,3 @@
 	</div>
 </section>
 {% endblock %}
-

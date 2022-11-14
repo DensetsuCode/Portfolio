@@ -113,7 +113,7 @@ class __TwigTemplate_7a26ac54ec9870b846248216170c198bc1ac858e6e1ca6cf792b30826a6
         echo "\t<center>
 \t<h1 style=\"color: green\">Annexe 6.1 Bloc de compétence E4 Version PDF 2022</h1>
 <div class=\"ratio ratio-16x9\">
-<embed src=\"../ressources/Annexe 6-1.pdf\" 
+<embed src=\"../ressources/Annexe 6-1 - Tableau de synthèse - Yanis El Kajjoui.xlsx - Tableau de synthèse Épreuve E4-1.pdf\" >
 </div>
 </center>
 ";
@@ -153,7 +153,7 @@ class __TwigTemplate_7a26ac54ec9870b846248216170c198bc1ac858e6e1ca6cf792b30826a6
 \t<center>
 \t<h1 style=\"color: green\">Annexe 6.1 Bloc de compétence E4 Version PDF 2022</h1>
 <div class=\"ratio ratio-16x9\">
-<embed src=\"../ressources/Annexe 6-1.pdf\" 
+<embed src=\"../ressources/Annexe 6-1 - Tableau de synthèse - Yanis El Kajjoui.xlsx - Tableau de synthèse Épreuve E4-1.pdf\" >
 </div>
 </center>
 {% endblock %}
