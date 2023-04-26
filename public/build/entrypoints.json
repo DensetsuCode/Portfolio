@@ -4,11 +4,11 @@
       "js": [
         "/build/runtime.js",
         "/build/vendors-node_modules_core-js_internals_array-iteration_js-node_modules_core-js_internals_dom--711a0d.js",
-        "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_symfony_ux-swup_dist_-e1ee25.js",
+        "/build/vendors-node_modules_hotwired_turbo_dist_turbo_es2017-esm_js-node_modules_swup_debug-plugin_l-5a9855.js",
         "/build/app.js"
       ],
       "css": [
-        "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_symfony_ux-swup_dist_-e1ee25.css",
+        "/build/vendors-node_modules_hotwired_turbo_dist_turbo_es2017-esm_js-node_modules_swup_debug-plugin_l-5a9855.css",
         "/build/app.css"
       ]
     },
@@ -25,14 +25,6 @@
       ],
       "css": [
         "/build/home.css"
-      ]
-    },
-    "portfolio": {
-      "js": [
-        "/build/runtime.js"
-      ],
-      "css": [
-        "/build/portfolio.css"
       ]
     }
   }

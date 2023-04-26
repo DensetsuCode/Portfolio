@@ -10,32 +10,35 @@
 					<a class="nav-link" href="{{ path('home') }}">Accueil</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ path('bts_sio') }}">Bts Sio</a>
+					<a class="nav-link" href="{{ path('bts_sio') }}">A propos</a>
 				</li>
+
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ path('about') }}">Profil</a>
+				</li>
+
 				<li class="nav-item">
 					<a class="nav-link" href="{{ path('app_bloc_competence')}}">Bloc de compétences</a>
 				</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ path('veille_technologique') }}">Veille Technologique</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="{{ path('stages') }}">Stages</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">PPE</a>
-							<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown08">
-								<li>
-									<a class="dropdown-item" href="#">Projet 1</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="#">Projet 2</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="#">Projet 3</a>
-								</li>
-							</ul>
-						</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Veille Technologique
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+						<li><a class="dropdown-item" href="{{ path('veille_technologique') }}">La BlockChain</a></li>
 					</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ path('stages') }}">Entreprise</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Projet 1</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="">Projet 2</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ path('contact.index') }}">Contact</a>
 			</div>
 		</nav>
